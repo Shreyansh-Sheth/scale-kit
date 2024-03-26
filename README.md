@@ -41,7 +41,8 @@ To get started with the SAAS-Starter-KIT, follow these steps:
 3. Configure your environment variables for authentication, payment processing, and other settings as per the provided documentation.
 4. Run the development server and start building your SAAS application!
 
-For detailed setup instructions and documentation, please refer to the [docs](./docs) directory.
+For detailed setup instructions and documentation, please refer to the ([DOCS](https://scale-kit.vercel.app/docs)
+).
 
 ## Contribution
 
