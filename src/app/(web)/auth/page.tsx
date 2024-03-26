@@ -12,6 +12,7 @@ import { IconBrandGoogleFilled } from "@tabler/icons-react";
 import { signIn } from "next-auth/react";
 import LoginWithGoogle from "./google";
 import LoginWithMagicLink from "./email";
+import { Suspense } from "react";
 
 export default function AuthenticationTitle() {
   return (
@@ -24,9 +25,13 @@ export default function AuthenticationTitle() {
               Add your credentials to continue
             </Text>
           </Stack>
-          <LoginWithMagicLink />
+          <Suspense>
+            <LoginWithMagicLink />
+          </Suspense>
           <Divider />
-          <LoginWithGoogle />
+          <Suspense>
+            <LoginWithGoogle />
+          </Suspense>
         </Stack>
       </Paper>
     </Container>

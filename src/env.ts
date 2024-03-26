@@ -16,7 +16,7 @@ export const env = createEnv({
     EMAIL_SERVER_HOST: z.string(),
     EMAIL_SERVER_PORT: z.coerce.number(),
     EMAIL_FROM: z.string(),
-    NEXTAUTH_URL: z.string(),
+    NEXTAUTH_URL: z.string().optional(),
     LEMONSQUEEZY_API_KEY: z.string(),
     LEMONSQUEEZY_STORE_ID: z.string(),
     LEMONSQUEEZY_WEBHOOK_SECRET: z.string(),
@@ -28,7 +28,7 @@ export const env = createEnv({
    * 💡 You'll get type errors if these are not prefixed with NEXT_PUBLIC_.
    */
   client: {
-    NEXT_PUBLIC_APP_URL: z.string(),
+    NEXT_PUBLIC_APP_URL: z.string().optional(),
   },
   /*
    * Due to how Next.js bundles environment variables on Edge and Client,
