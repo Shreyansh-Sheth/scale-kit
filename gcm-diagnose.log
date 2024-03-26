@@ -1,0 +1,166 @@
+﻿Diagnose log at 2024-03-26T14:28:21Z
+
+AppPath: /usr/local/bin/git-credential-manager
+InstallDir: /usr/local/share/gcm-core/
+Version: 2.4.1
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: macOS
+OSVersion: 14.4.0
+Reading environment variables... OK
+ Variables:
+__CFBundleIdentifier=com.microsoft.VSCode
+NVM_CD_FLAGS=-q
+COLORTERM=truecolor
+TERM=xterm-256color
+CWTERM_SESSION_ID=937a6f74a2634bfd822d46513e64a184
+CW_SET_PARENT=937a6f74a2634bfd822d46513e64a184
+GIT_ASKPASS=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh
+MallocNanoZone=0
+OLDPWD=/Volumes/Seagate Expansi/Projects/saas
+PATH=/Users/shreyanshsheth/.nvm/versions/node/v18.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin:/opt/podman/bin:/Users/shreyanshsheth/Library/pnpm:/Users/shreyanshsheth/.nvm/versions/node/v18.17.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/shreyanshsheth/.cargo/bin:/Users/shreyanshsheth/.local/bin:/Users/shreyanshsheth/Library/Android/sdk/emulator:/Users/shreyanshsheth/Library/Android/sdk/platform-tools:/Users/shreyanshsheth/Applications/flutter/bin:/Users/shreyanshsheth/Library/Android/sdk/emulator:/Users/shreyanshsheth/Library/Android/sdk/platform-tools:/Users/shreyanshsheth/Applications/flutter/bin
+MANPATH=/Users/shreyanshsheth/.nvm/versions/node/v18.17.0/share/man:/opt/homebrew/share/man:/usr/share/man:/usr/local/share/man:/Users/shreyanshsheth/.nvm/versions/node/v18.17.0/share/man:/opt/homebrew/share/man::
+GIT_TRACE2_PARENT_SID=7ca2b639-397a-4f14-aced-ab7ae000d997
+NVM_INC=/Users/shreyanshsheth/.nvm/versions/node/v18.17.0/include/node
+VSCODE_INJECTION=1
+PNPM_HOME=/Users/shreyanshsheth/Library/pnpm
+TERM_PROGRAM_VERSION=1.87.2
+VSCODE_GIT_IPC_HANDLE=/var/folders/_m/1yvbr65d4d7gt3bsh4sgcx2h0000gn/T/vscode-git-edd3dec674.sock
+VSCODE_GIT_ASKPASS_MAIN=/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js
+SHELL=/bin/zsh
+LANG=en_US.UTF-8
+ANDROID_HOME=/Users/shreyanshsheth/Library/Android/sdk
+VSCODE_NONCE=597729ae-3a51-412c-be56-8a79e3d50f57
+HOME=/Users/shreyanshsheth
+HOMEBREW_CELLAR=/opt/homebrew/Cellar
+SSH_AUTH_SOCK=/private/tmp/com.apple.launchd.eIYKE9r3se/Listeners
+LC_CW_SET_PARENT=937a6f74a2634bfd822d46513e64a184
+VSCODE_GIT_ASKPASS_NODE=/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+SHELL_PID=5497
+USER_ZDOTDIR=/Users/shreyanshsheth
+LOGNAME=shreyanshsheth
+SECURITYSESSIONID=186a2
+CW_TERM=0.15.1
+LaunchInstanceID=AA15EF20-4FBC-40D2-A31F-E3FAD9E356F1
+_=/usr/local/bin/git-credential-manager
+XPC_SERVICE_NAME=0
+XPC_FLAGS=0x0
+COMMAND_MODE=unix2003
+HOMEBREW_PREFIX=/opt/homebrew
+TERM_PROGRAM=vscode
+NVM_BIN=/Users/shreyanshsheth/.nvm/versions/node/v18.17.0/bin
+USER=shreyanshsheth
+SHLVL=1
+HOMEBREW_REPOSITORY=/opt/homebrew
+FIG_NEW_SESSION=1
+TTY=/dev/ttys003
+ZDOTDIR=/Users/shreyanshsheth
+NVM_DIR=/Users/shreyanshsheth/.nvm
+CW_SET_PARENT_CHECK=1
+ORIGINAL_XDG_CURRENT_DESKTOP=undefined
+__CF_USER_TEXT_ENCODING=0x1F5:0x0:0x0
+TMPDIR=/var/folders/_m/1yvbr65d4d7gt3bsh4sgcx2h0000gn/T/
+PWD=/Volumes/Seagate Expansi/Projects/saas
+INFOPATH=/opt/homebrew/share/info:/opt/homebrew/share/info:
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is '/var/folders/_m/1yvbr65d4d7gt3bsh4sgcx2h0000gn/T/'...
+Checking basic file I/O...
+Writing to temporary file '/var/folders/_m/1yvbr65d4d7gt3bsh4sgcx2h0000gn/T/7b46432fb6e9a8dee4a4180d'... OK
+Reading from temporary file '/var/folders/_m/1yvbr65d4d7gt3bsh4sgcx2h0000gn/T/7b46432fb6e9a8dee4a4180d'... OK
+Deleting temporary file '/var/folders/_m/1yvbr65d4d7gt3bsh4sgcx2h0000gn/T/7b46432fb6e9a8dee4a4180d'... OK
+Testing IFileSystem instance...
+UserHomePath: /Users/shreyanshsheth
+UserDataDirectoryPath: /Users/shreyanshsheth/.gcm
+GetCurrentDirectory(): /Volumes/Seagate Expansi/Projects/saas
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: True
+Exception: None
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... OK
+ OK
+Acquiring free TCP port... OK
+Testing local HTTP loopback connections...
+Creating new HTTP listener for http://localhost:60956/... OK
+Waiting for loopback connection... OK
+Writing response... OK
+Waiting for response data... OK
+Loopback connection data OK
+
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.44.0'
+Locating current repository... OK
+Not inside a Git repository.
+Listing all Git configuration... OK
+Git configuration:
+file:/opt/homebrew/etc/gitconfig	credential.helper=osxkeychain
+file:/Users/shreyanshsheth/.gitconfig	filter.lfs.required=true
+file:/Users/shreyanshsheth/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:/Users/shreyanshsheth/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:/Users/shreyanshsheth/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:/Users/shreyanshsheth/.gitconfig	credential.helper=
+file:/Users/shreyanshsheth/.gitconfig	credential.helper=/usr/local/share/gcm-core/git-credential-manager
+file:/Users/shreyanshsheth/.gitconfig	credential.https://dev.azure.com.usehttppath=true
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
+------------
+Diagnostic: Microsoft authentication (AAD/MSA)
+Skipped: False
+Success: True
+Exception: None
+Log:
+Broker is not enabled.
+Flow type is: Auto
+Gathering MSAL token cache data... OK
+CacheDirectory: /Users/shreyanshsheth/.local/.IdentityService
+CacheFileName: msal.cache
+CacheFilePath: /Users/shreyanshsheth/.local/.IdentityService/msal.cache
+MacKeyChainAccountName: MSALCache
+MacKeyChainServiceName: Microsoft.Developer.IdentityService
+Creating cache helper... OK
+Verifying MSAL token cache persistence... OK
+
+------------
+Diagnostic: GitHub API
+Skipped: False
+Success: True
+Exception: None
+Log:
+Using 'https://github.com/' as API target.
+Querying '/meta' endpoint... OK
+

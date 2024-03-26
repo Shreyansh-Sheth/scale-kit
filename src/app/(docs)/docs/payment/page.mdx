@@ -1,0 +1,64 @@
+### Setup LemonSqueezy
+
+<br />
+
+1. **Setup Enviroment Variables**
+
+   you can find store id & api key in your lemon squeezy account
+   to create webhook secret you can generate string and use it as secret for webhook verification
+
+   ```bash
+   LEMONSQUEEZY_API_KEY=
+   LEMONSQUEEZY_STORE_ID=
+   LEMONSQUEEZY_WEBHOOK_SECRET=
+   NEXT_PUBLIC_APP_URL=
+   ```
+
+<br />
+
+2. **Lemon Squeezy Webhook**
+
+   - for local use Ngrok to expose your local app to the internet
+   - use that url ` {URL}/api/webhook/lemon` as your webook url
+   - Add webhook url in your lemon squeezy account with `subscription_create` & `subscription_update` events
+
+<br />
+
+3. **Add product with variants as subscription in lemon squeezy account**
+
+   <br />
+
+4. **Setup subscription details in `lib/config/plan.ts`**
+
+   ```ts
+   export const productId = "226815"; // ADD YOUR PRODUCT ID HERE
+   ```
+
+   Replace plan details with your plan details that you want to show it to users
+
+   ```ts
+   export const planDetails = [
+     {
+       variantId: "309270",
+       variantName: "BASIC",
+       title: "Basic version",
+       pricing: "20$ per month",
+       details: [
+         "Basic Access To Models",
+         "Unlimited Chats",
+         "Access to all models",
+       ],
+     },
+     {
+       variantId: "309273",
+       variantName: "PRO",
+       title: "Por veriosn",
+       pricing: "20$ per month",
+       details: [
+         "Basic Access To Models",
+         "Unlimited Chats",
+         "Access to all models",
+       ],
+     },
+   ] as cosnt;
+   ```

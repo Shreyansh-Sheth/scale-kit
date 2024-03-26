@@ -1,0 +1,54 @@
+# Run project in local
+
+1. Clone the project
+
+```bash
+git clone REPO_URL
+```
+
+2. Install dependencies
+
+```bash
+yarn install
+
+```
+
+3. Setup Env
+
+   create new file `.env.local` and add the following
+
+```bash
+
+/// MONGODB DATABASE URL
+MONGODB_URI="mongodb://localhost:27017"
+
+// NEXT AUTH SETUP
+NEXTAUTH_SECRET=""
+GOOGLE_CLIENT_ID=""
+GOOGLE_CLIENT_SECRET=""
+NEXTAUTH_URL="http://localhost:3000"
+
+
+// SMTP VALUES FOR EMAIL FLOW
+EMAIL_SERVER_USER=
+EMAIL_SERVER_PASSWORD=
+EMAIL_SERVER_HOST=
+EMAIL_SERVER_PORT=
+EMAIL_FROM=noreply@example.com
+
+
+//LEMON SQUEEZY PAYMENTS
+LEMONSQUEEZY_API_KEY=
+LEMONSQUEEZY_STORE_ID=
+LEMONSQUEEZY_WEBHOOK_SECRET=
+NEXT_PUBLIC_APP_URL=
+
+
+//LOGGING DATA
+NEXT_PUBLIC_AXIOM_DATASET=
+NEXT_PUBLIC_AXIOM_TOKEN=
+
+//ANALYTICS
+GA_TAG_ID=
+
+```
