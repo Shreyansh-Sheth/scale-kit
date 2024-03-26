@@ -4,13 +4,13 @@
 
 ## NextJS saas starter kit with authentication, billing, docs, dashboard and more.
 
-> want to develop SAAS MVP in 15 days contact me at shreyansh@scale-dev.com
+> want to develop SAAS contact me at shreyansh@scale-dev.com
 
 📚 [DOCS](https://scale-kit.vercel.app/docs) WIP
 
 ## Technologies
 
-Welcome to the SAAS-Starter-KIT repository! This kit is designed to help you kickstart your Software as a Service (SAAS) projects by providing essential features and utilizing modern technologies.
+Welcome to the Scale Saas Starter Kit repository! This kit is designed to help you kickstart your Software as a Service (SAAS) projects by providing essential features and utilizing modern technologies.
 
 ## Features List
 
@@ -24,9 +24,13 @@ Welcome to the SAAS-Starter-KIT repository! This kit is designed to help you kic
 ## Technologies Used
 
 1. **Next.Js (App Router)**: Next.js is used for building React applications with server-side rendering, routing, and other advanced features.
+
 2. **mongoose (MongoDB)**: Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.
+
 3. **Mantine (UI Library)**: Mantine is a React component library with customizable components and built-in themes for rapid UI development.
+
 4. **NextAuth (Authentication)**: NextAuth is used for implementing authentication in Next.js applications with support for OAuth providers and other authentication methods.
+
 5. **LemonSqueezy (Payment Processor)**: LemonSqueezy is utilized for handling subscription-based payments securely and efficiently.
 6. **MDX (docs)**: MDX is used for creating documentation by combining Markdown with JSX, allowing for interactive and dynamic content.
 7. **Axiom (Logging)**: Axiom is used for logging application events and errors to facilitate monitoring and debugging.
@@ -44,10 +48,18 @@ To get started with the SAAS-Starter-KIT, follow these steps:
 For detailed setup instructions and documentation, please refer to the ([DOCS](https://scale-kit.vercel.app/docs)
 ).
 
+### Todo List
+
+- SEO
+- Multi Tenancy
+- Language Support
+
+_Feel Free to contribute_
+
 ## Contribution
 
-Contributions to the SAAS-Starter-KIT are welcome! If you find any bugs, have feature requests, or want to contribute enhancements, please submit an issue or pull request following the contribution guidelines outlined in the repository.
+Contributions to the SAAS-Starter-KIT are welcome! If you find any bugs, have feature requests, or want to contribute enhancements, please submit an issue or pull request.
 
 ## License
 
-This project is licensed under the [MIT License](./LICENSE). Feel free to use, modify, and distribute the SAAS-Starter-KIT for your SAAS projects.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the SAAS-Starter-KIT for your SAAS projects.
