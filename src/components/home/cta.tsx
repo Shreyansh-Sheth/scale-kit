@@ -9,12 +9,13 @@ import {
   Title,
 } from "@mantine/core";
 import { IconArrowRight } from "@tabler/icons-react";
+import Link from "next/link";
 
 export default function CTA() {
   return (
     <Container size="lg">
-      <Paper maw="700" shadow="xl" withBorder p="md">
-        <Stack align="center" gap={70}>
+      <Paper shadow="xl" withBorder p="lg">
+        <Stack maw="700" align="center">
           <Title order={1} ta="center">
             Make your website faster <br /> and more reliable with our services.
           </Title>
@@ -24,8 +25,15 @@ export default function CTA() {
             necessitatibus quas doloribus.
           </Text>
           <Group>
-            <Button leftSection={<IconArrowRight />}>Get Started Now</Button>
-            <Button>Book Call Now</Button>
+            <Button
+              component={Link}
+              href="/dashboard"
+              size="xs"
+              leftSection={<IconArrowRight />}
+            >
+              Get Started Now
+            </Button>
+            <Button size="xs">Book Call Now</Button>
           </Group>
         </Stack>
       </Paper>

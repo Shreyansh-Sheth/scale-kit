@@ -6,7 +6,7 @@ export default async function Home() {
   const session = await getServerSession(authOptions);
   return (
     <Stack p="md">
-      <Title>Hello Shreyansh,</Title>
+      <Title>Hello, {session?.user.email}</Title>
     </Stack>
   );
 }

@@ -15,7 +15,7 @@ export const planDetails = [
     variantId: "309270",
     variantName: "BASIC",
     title: "Basic version",
-    pricing: "20$ per month",
+    pricing: 20,
     details: [
       "Basic Access To Models",
       "Unlimited Chats",
@@ -25,8 +25,8 @@ export const planDetails = [
   {
     variantId: "309273",
     variantName: "PRO",
-    title: "Por veriosn",
-    pricing: "20$ per month",
+    title: "Pro version",
+    pricing: 50,
     details: [
       "Basic Access To Models",
       "Unlimited Chats",
@@ -36,8 +36,8 @@ export const planDetails = [
   {
     variantId: "309276",
     variantName: "ENTER NOW",
-    title: "Enterpirce",
-    pricing: "20$ per month",
+    title: "Enterprise",
+    pricing: 100,
     details: [
       "Basic Access To Models",
       "Unlimited Chats",

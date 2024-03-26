@@ -11,7 +11,7 @@ import Faq from "@/components/home/faq";
 import CTA from "@/components/home/cta";
 import Footer from "@/components/home/footer";
 
-export default function Home() {
+export default async function Home() {
   return (
     <Navbar>
       <Stack gap={200}>
@@ -19,6 +19,7 @@ export default function Home() {
         <WorkedWith />
         <Features />
         <Testimonials />
+        <Plan />
         <Faq />
         <CTA />
         <Footer />

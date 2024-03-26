@@ -1,6 +1,7 @@
 "use client";
 import { Carousel, CarouselSlide } from "@mantine/carousel";
 import {
+  Box,
   Container,
   Divider,
   Stack,
@@ -17,10 +18,11 @@ export default function Testimonials() {
 
   return (
     <Container>
-      <Stack>
-        <Title c="lime" order={2}>
-          Testimonials
-        </Title>
+      <Stack gap={25}>
+        <Stack align="center" gap={4}>
+          <Title order={2}>Testimonials</Title>
+          <Text c="dimmed">What our customers have to say about us.</Text>
+        </Stack>
         <Carousel
           plugins={[autoplay.current]}
           onMouseEnter={autoplay.current.stop}
@@ -33,7 +35,7 @@ export default function Testimonials() {
           {[...new Array(3)].map((_, idx) => (
             <CarouselSlide key={idx}>
               <Stack>
-                <Title order={3}>
+                <Title order={4}>
                   <ThemeIcon variant="transparent" mr="md">
                     <IconQuote />
                   </ThemeIcon>
@@ -44,7 +46,12 @@ export default function Testimonials() {
                   exercitationem ad?
                 </Title>
                 <Divider />
-                <Text>Shreyansh Shet</Text>
+                <Stack gap={2}>
+                  <Text size={"xl"} fw="bold">
+                    Shreyansh Sheth
+                  </Text>
+                  <Text size={"xs"}>Someone from github</Text>
+                </Stack>
               </Stack>
             </CarouselSlide>
           ))}{" "}
